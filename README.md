@@ -1,31 +1,33 @@
 # Sure Financial Company task for placement process
 
-Features
--Lightweight Streamlit app that extracts key financial details from PDF credit card statement of popular Indian Banks & Credit Card Providers. 
--Clean UI with dropdown issuer selection
--Handles noisy text and formatting inconsistencies
-1)Upload PDF statements from major Indian banks
-2)Extract key fields like:
-Cardholder Name
-Card Network (e.g., RuPay, Visa)
-Last 4 Digits of Card
-Statement Period
-Total Amount Due
-Payment Due Date
+Features<br>
+-Lightweight Streamlit app that extracts key financial details from PDF credit card statement of popular Indian Banks & Credit Card Providers.<br>
+-Clean UI with dropdown issuer selection<br>
+-Handles noisy text and formatting inconsistencies<br>
 
+Steps<br>
+1)To run: streamlit run Sure_task.py<br>
+2)Upload PDF statements from major Indian banks<br>
 
-Tech Stack
-1)Streamlit – for interactive UI
-command: pip install streamlit
+Output<br>
+Extract key fields like:<br>
+-Cardholder Name<br>
+-Card Network (e.g., RuPay, Visa)<br>
+-Last 4 Digits of Card<br>
+-Statement Period<br>
+-Total Amount Due<br>
+-Payment Due Date<br>
 
-2)PyMuPDF (fitz) – for PDF text extraction
-command: pip install pymupdf
+Tech Stack<br>
+1)Streamlit – for interactive UI<br>
+command: pip install streamlit<br>
 
-3)Regex – for pattern-based parsing
-command in code(no need to install): import re
+2)PyMuPDF (fitz) – for PDF text extraction<br>
+command: pip install pymupdf<br>
 
-Current Scope:
--extracts text only from pdf
+3)Regex – for pattern-based parsing<br>
+command in code(no need to install): import re<br>
 
-Future Scope:
--integrate OCR for image-based pdf
+Current Scope:-extracts text only from pdf
+
+Future Scope:-integrate OCR for image-based pdf
